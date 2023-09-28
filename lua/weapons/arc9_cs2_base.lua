@@ -17,6 +17,10 @@ SWEP.Bash = true
 SWEP.PrimaryBash = false
 SWEP.DefaultBodygroups = "0000000000"
 
+SWEP.AlwaysPhysBullet = false
+SWEP.NeverPhysBullet = true
+SWEP.TracerEffect = "cod2019_tracer"
+
 SWEP.BashDamage = 45
 SWEP.BashLungeRange = 0
 SWEP.BashRange = 64

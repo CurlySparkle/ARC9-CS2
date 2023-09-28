@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\cs2\rif_m4a1\weapon_rif_m4a4_rgb"
+    "$bumpmap" "models\cs2\rif_m4a1\weapon_rif_m4a4_n"
+    "$phongexponenttexture" "models\cs2\rif_m4a1\weapon_rif_m4a4_e"
+
+    "$color2" "[0 0 0]"
+    "$blendtintbybasealpha" "1"
+
+    "$phong" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongalbedotint" "0"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"
+    "$envmapfresnel" "1"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0.2 0.2 0.2]"
+
+    //remove this if viewing outside of MWB
+    "Proxies"
+    {
+        "Arc9EnvMapTint"
+        {
+            "specularity" "0.5"             //0.25, 0.5, 0.75, 1
+            "min" "0"
+            "max" "0.2"                       //change this if too bright in game
+        }
+    }
+}

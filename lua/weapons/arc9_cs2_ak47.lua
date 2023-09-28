@@ -131,7 +131,7 @@ SWEP.VisualRecoilPunchSights = 75
 SWEP.VisualRecoilPunch = 3
 SWEP.VisualRecoilUp = 0.3
 SWEP.VisualRecoilRoll = 15
-SWEP.VisualRecoilSide = 0.2
+SWEP.VisualRecoilSide = 0.1
 
 SWEP.VisualRecoilDoingFunc = function(up, side, roll, punch, recamount)
     if recamount > 5 then
@@ -155,9 +155,9 @@ SWEP.RecoilModifierCap = 3
 SWEP.RecoilModifierCapMove = 0
 SWEP.RecoilModifierCapSights = 0
 
-SWEP.SpreadMultMove = 2
+SWEP.SpreadMultMove = 3
 --SWEP.SpreadAddMidAir = 0
-SWEP.SpreadAddHipFire = 0.03
+SWEP.SpreadAddHipFire = 0.02
 SWEP.SpreadAddCrouch = -0.03
 SWEP.SpreadAddSights = -0.5
 
@@ -189,8 +189,8 @@ SWEP.IronSights = {
 
 SWEP.ViewModelFOVBase = 56
 
-SWEP.SprintPos = Vector(0, 0, 0)
-SWEP.SprintAng = Angle(0, 0, 0)
+SWEP.SprintPos = Vector(-1, -5, -1.5)
+SWEP.SprintAng = Angle(25, 0, -35)
 
 SWEP.SprintMidPoint = {
     Pos = Vector(0, -1.5, -0.15),
@@ -241,7 +241,7 @@ SWEP.ProceduralViewQCA = 1
 SWEP.CamQCA = 4
 SWEP.CamQCA_Mult = 0.5
 
-SWEP.ShellModel = "models/weapons/cs2/shared/shell_shotgun.mdl"
+SWEP.ShellModel = "models/weapons/cs2/shared/shell_762_hr.mdl"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 0.08
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
